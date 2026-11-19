@@ -10,12 +10,16 @@ package practicaevaluada2;
  */
 public class Empleado {
     
+    Empleado e = new Empleado("juanito",167809999);
+    
     // atributos
     private String nombreEmpleado = "juanito";
     private int cedulaEmpleado = 167809999;
     
     // constructor
-    public Empleado() {
+    public Empleado(String nombreEmpleado, int cedulaEmpleado) {
+        this.nombreEmpleado = nombreEmpleado;
+        this.cedulaEmpleado = cedulaEmpleado;
     }
     
     // setters y getters

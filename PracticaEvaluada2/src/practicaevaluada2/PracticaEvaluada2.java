@@ -17,7 +17,7 @@ public class PracticaEvaluada2 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Super s = new Super("super chino", 12345);
+        
         
         Producto p = new Producto(0, "", 0, 0, null);
         
@@ -26,6 +26,15 @@ public class PracticaEvaluada2 {
         p.precioBrutoProductos();
         p.gananciaProductos();
         
+        Empleado e = new Empleado("", 0);
+        
+        e.getNombreEmpleado();
+        e.getCedulaEmpleado();
+        
+        Super s = new Super("", 0);
+        
+        s.getNombreSuper();
+        s.getCodigoSuper();
         
 
     }
